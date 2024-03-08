@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <title>CSS Interno</title>
+    <style>
+        
+    body#color {
+        background-color: #ac67fd;
+    }
+    
+    div#pai {
+        background-color: #7c0ea4;
+        width: 1000px;
+        height: 400px;
+    }
+    div#pai div#filho {
+        background-color: #ba30ec;
+        width: 75%;
+        height: 55%;
+    }
+    div#pai div#filho p {
+        color: white;
+        background-color: #0C082D;
+        font-size: 30px;
+        font-family: monospace;
+        font-weight: bold;
+    }
+    div#div1 {
+        width: 100vw;
+        height: 28vh;
+        background-color: #630b83;
+    }
+    div#div2 {
+        width: 100vw;
+        height: 230px;
+        background-color: #310541;
+    }
+
+    </style>
+</head>
+
+<body  id="color">
+
+    <div id="pai" >
+        <div id="filho">
+            <p>CSS INTERNO</p>
+            <a href="cssExterno.html">CSS Externo</a>
+        </div>
+    </div>
+
+    <div id="div1"></div>
+
+    <div id="div2"></div>
+
+</body>
+</html>
